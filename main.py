@@ -1,16 +1,14 @@
 import streamlit as st
 import pandas as py
-import streamlit as st
+import streamlit_authenticator as stauth
 
-# Set the page title
-#st.set_page_config(page_title="ParkPoint", layout="wide")
+
 st.set_page_config(page_title="ParkPoint", layout="centered")
 st.title("Welcome to ParkPoint")
-# Create a container to hold the columns and center them
-#comments to schange the layout
+
 with st.container(): 
-    # Create two columns for layout
-    col1, col2 = st.columns([1, 1])  # Equal width for both columns
+   
+    col1, col2 = st.columns([1, 1])  
 
     # Column for buttons
     with col1:
